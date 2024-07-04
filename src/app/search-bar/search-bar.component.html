@@ -1,0 +1,5 @@
+<div class="search-container" [ngClass]="{'active': isActive}">
+    <input *ngIf="isActive" type="text" placeholder="Search...">
+    <i class="material-icons" (click)="toggleSearch()">search</i>
+</div>
+  

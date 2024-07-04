@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #1074CC;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .navbar .image-26 {
+    background: url('/src/assets/images/image_26.png') 50% / cover no-repeat;
+    width: 150px;
+    height: 56px;
+  }
+  .navbar-nav {
+    list-style: none;
+    display: inline-block;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .nav-item i {
+    margin-right: 5px;
+  }
+  .nav-item .item-style {
+    margin: 0.6px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--body-14-font-family, 'Roboto');
+    font-weight: var(--body-14-font-weight, 400);
+    font-size: var(--body-14-font-size, 14px);
+    letter-spacing: var(--body-14-letter-spacing, 0px);
+    line-height: var(--body-14-line-height, 1.429);
+    color: #FFFFFF;
+  }
+  .nav-item .iconlink-1 {
+    margin-right: 9.4px;
+    display: flex;
+    width: 21.2px;
+    height: 21.2px;
+    box-sizing: border-box;
+  }
+  .nav-item .vector-14 {
+    transform: rotate(-45deg);
+    width: 21.2px;
+    height: 21.2px;
+  }
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center; 
+}
+
+.container > div {
+    margin-right: 10px; 
+    padding: 10px;
+}
+app-search-bar {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

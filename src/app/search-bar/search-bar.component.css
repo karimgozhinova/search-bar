@@ -1,0 +1,37 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    width: 500px;
+  }
+  
+  .search-container i {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .search-container input {
+    display: block;
+    width: 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+  }
+  .search-container.active {
+    z-index: 1; 
+}
+  .search-container.active input {
+    width: 200px;
+    opacity: 1;
+    z-index: 1;
+  }
+  .search-container i.material-icons {
+    cursor: pointer;
+}
+  .material-icons{
+    display: inline-block;
+  }
+  
